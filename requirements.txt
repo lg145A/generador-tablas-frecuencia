@@ -1,0 +1,11 @@
+streamlit>=1.35.0
+pandas>=2.0.0
+numpy>=1.26.0
+plotly>=5.20.0
+matplotlib>=3.8.0
+pillow>=10.0.0
+pypdf>=4.0.0
+pytesseract>=0.3.10
+fpdf2>=2.7.9
+openpyxl>=3.9.0
+xlsxwriter>=3.1.0
