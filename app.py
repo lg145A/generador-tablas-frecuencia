@@ -18,7 +18,7 @@ import pytesseract
 from fpdf import FPDF
 
 # --- CONFIGURACIÓN DE TESSERACT (Para leer imágenes) ---
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'/usr/bin/tesseract'
 
 # --- 1. CONFIGURACIÓN DE PÁGINA Y ESTILOS ---
 st.set_page_config(
