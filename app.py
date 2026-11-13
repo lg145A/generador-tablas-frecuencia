@@ -19,7 +19,6 @@ from fpdf import FPDF
 
 # --- CONFIGURACIÓN DE TESSERACT (Para leer imágenes) ---
 pytesseract.pytesseract.tesseract_cmd = r'/usr/bin/tesseract'
-
 # --- 1. CONFIGURACIÓN DE PÁGINA Y ESTILOS ---
 st.set_page_config(
     page_title="Generador de Tablas de Frecuencia",
